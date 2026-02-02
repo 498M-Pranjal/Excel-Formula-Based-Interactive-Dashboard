@@ -21,42 +21,43 @@ It helps analyze YoY growth, target vs actual performance, and sales trends usin
 
 Raw transactional sales data containing:
 
-Order Date
+* Order Date
 
-Product Category
+* Product Category
 
-Sales Amount
+* Sales Amount
 
-Dashboard (Output)
+**Dashboard (Output):**
 
-Month-wise CY Sales
+* Month-wise CY Sales
 
-Month-wise PY Sales
+* Month-wise PY Sales
 
-YoY % Change
+* YoY % Change
 
-Target Sales comparison
+* Target Sales comparison
 
-Interactive charts and indicators
+* Interactive charts and indicators
 
-🧭 Dashboard Controls
+**Dashboard Controls:**
 
-Year Selector (Dropdown using Data Validation)
+* Year Selector (Dropdown using Data Validation)
 
-Product Selector (e.g., Mountain Bikes)
+* Product Selector (e.g., Mountain Bikes)
 
-Dynamic update of all tables and charts based on selection
+* Dynamic update of all tables and charts based on selection
 
-📊 Dashboard Components
-🔹 KPI Section
+**Dashboard Components:**
 
-Annual Sales (CY)
+🔹 **KPI Section**
 
-% Contribution to Total Sales
+* Annual Sales (CY)
 
-Total Sales (All Products)
+* % Contribution to Total Sales
 
-🔹 Monthly Comparison Table
+* Total Sales (All Products)
+
+**🔹 Monthly Comparison Table**
 
 Month
 
