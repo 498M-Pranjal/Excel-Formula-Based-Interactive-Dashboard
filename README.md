@@ -59,148 +59,154 @@ Raw transactional sales data containing:
 
 **🔹 Monthly Comparison Table**
 
-Month
+* Month
 
-CY Sales
+* CY Sales
 
-PY Sales
+* PY Sales
 
-YoY % Change
+* YoY % Change
 
-Conditional Formatting with Data Bars
+* Conditional Formatting with Data Bars
 
-🔹 Charts
+**🔹 Charts**
 
-Line Chart showing:
+* Line Chart showing:
 
-CY Sales
+ * CY Sales
 
-PY Sales
+ * PY Sales
 
-Target Sales (Dashed Line)
+ * Target Sales (Dashed Line)
 
-Smoothed lines for better trend visibility
+* Smoothed lines for better trend visibility
 
-Proper legends and labels
+* Proper legends and labels
 
-📑 Agenda / Concepts Covered (Explained)
-1️⃣ Dataset (Input) vs Dashboard (Output)
+**1. Dataset (Input) vs Dashboard (Output)**
 
 Raw data is transformed into a visual dashboard using formulas and charts.
 
-2️⃣ Overview of Formulas Used
+**2️. Overview of Formulas Used**
 
-SUMIFS
+* SUMIFS
 
-INDEX
+* INDEX
 
-MATCH
+* MATCH
 
-IFERROR
+* IFERROR
 
-YEAR
+* YEAR
 
-TEXT
+* TEXT
 
-VLOOKUP
+* VLOOKUP
 
-Logic operators (>, <, =)
+* Logical Functions (AND, OR, NOT)
 
-Aggregate calculations
+* Aggregate calculations
 
-3️⃣ Symbols (Arial)
+**3️. Symbols (Arial)**
 
-Icons and symbols are used for visual indicators using Arial font.
+Icons and symbols are used for visual indicators using the Arial font.
 
-4️⃣ Drop-down List using Data Validation
+**4️. Drop-down List using Data Validation**
 
 Used for:
 
-Year selection
+* Year selection
 
-Product selection
+* Product selection
 
-5️⃣ SUMIFS using Multiple Criteria
+**5️. SUMIFS using Multiple Criteria**
 
 Sales calculated based on:
 
-Year
+* Year
 
-Product
+* Product
 
-Month
+* Month
 
-6️⃣ Using YEAR & TEXT
+**6️. Using YEAR & TEXT**
 
-YEAR() to extract year from date
+* YEAR() to extract year from date
 
-TEXT() to format months
+* TEXT() to format months
 
-7️⃣ YoY % Change
+**7️. YoY % Change**
 
 Calculated to compare CY vs PY performance.
 
-8️⃣ Conditional Formatting – Data Bars
+**8️. Conditional Formatting – Data Bars**
 
-Axis at cell midpoint
+* Axis at cell midpoint
 
-Show bar only
+* Show bar only
 
-Red/Blue indicators for decrease/increase
+* Red/Blue indicators for decrease/increase
 
-9️⃣ INDEX + MATCH with Wildcards
+**9️. INDEX + MATCH with Wildcards**
 
-* (asterisk)
+* * (asterisk)
 
-~ (tilde)
+* ~ (tilde)
+  
 Used for flexible product matching.
 
-🔟 Line Chart Customization
+**10. Line Chart Customization**
 
-Dashed line for target sales
+* Dashed line for target sales
 
-Smoothed line enabled
+* Smoothed line enabled
 
-Series name as data label
+* Series name as data label
 
-1️⃣1️⃣ Final Touches
+**11. Final Touches**
 
-Dark theme formatting
+* Dark theme formatting
 
-Alignment & spacing
+* Alignment & spacing
 
-Professional dashboard look
+* Professional dashboard look
 
-🧮 Key Excel Formulas Used
-🔹 CY Sales
-=SUMIFS(Sales_Range, Year_Range, Selected_Year, Product_Range, Selected_Product, Month_Range, Selected_Month)
+**Key Excel Formulas Used**
 
-🔹 PY Sales
-=SUMIFS(Sales_Range, Year_Range, Selected_Year-1, Product_Range, Selected_Product, Month_Range, Selected_Month)
+**🔹 CY Sales**
 
-🔹 YoY % Change
-=IFERROR((CY_Sales - PY_Sales) / PY_Sales, 0)
+CY Sales = SUMIFS(Sales_Range, Year_Range, Selected_Year, Product_Range, Selected_Product, Month_Range, Selected_Month)
 
-🔹 INDEX MATCH with Wildcard
-=INDEX(range, MATCH("*"&lookup_value&"*", lookup_range, 0))
+**🔹 PY Sales**
 
-📈 Tools & Features Used
+PY Sales = SUMIFS(Sales_Range, Year_Range, Selected_Year-1, Product_Range, Selected_Product, Month_Range, Selected_Month)
 
-Microsoft Excel
+**🔹 YoY % Change**
 
-Excel Charts
+YOY % Change = IFERROR((CY_Sales - PY_Sales) / PY_Sales, 0)
 
-Data Validation
+**🔹 INDEX MATCH with Wildcard**
 
-Conditional Formatting
+Index match = INDEX(range, MATCH("*"&lookup_value&"*", lookup_range, 0))
 
-Logic Operators
+**Features Used**
 
-Aggregate Functions
+* Data Validation
 
-Lookup Functions
+* Conditional Formatting
 
-✅ Conclusion
+* Logic Operators
+
+* Aggregate Functions
+
+* Lookup Functions
+
+**Conclusion**
 
 This Excel Sales Dashboard provides a powerful way to analyze monthly and product-wise sales performance using formulas and charts.
 It demonstrates a strong understanding of Excel analytics, business logic, and dashboard design.
+
+**Dashboard Screenshot:**
+
+<img width="1837" height="693" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/0ab637e5-04a5-402c-828b-c141d78d53f1" />
+
