@@ -149,7 +149,7 @@ Calculated to compare CY vs PY performance.
 
 **9️. INDEX + MATCH with Wildcards**
 
-* * (asterisk)
+* (asterisk) *
 
 * ~ (tilde)
   
